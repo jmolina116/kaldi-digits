@@ -1,0 +1,12 @@
+{
+    "_comment": "path configurations a pipeline python script can read in",
+    "kaldi_root" : "YOUR_KALDI_ROOT",
+    "wave" : "raw_data",
+    "scripts" : "local",
+    "data" : "data",
+    "lang" : "data/lang",
+    "exp" : "exp",
+    "mfcc" : "exp/make_mfcc",
+    "utils" : "utils",
+    "steps" : "steps"
+}
