@@ -54,7 +54,7 @@ steps/train_mono.sh --nj 112 --cmd utils/run.pl data/train2 data/lang exp/mono2
 printf '\n=== LATTICE ===\n'
 $KALDI_ROOT/src/fstbin/fstcopy 'ark:gunzip -c exp/mono2/fsts.1.gz|' ark,t:- | head -n 20
 printf '\n=== TESTING ===\n'
-steps/make_mfcc.sh --mfcc_config local/mfcc_fsdd.conf --nj 1 data/test2 exp/make_mfcc/test2
+steps/make_mfcc.sh --mfcc_config conf/mfcc_fsdd.conf --nj 1 data/test2 exp/make_mfcc/test2
 steps/compute_cmvn_stats.sh data/test2 exp/make_mfcc/test2
 printf '\n=== MAKING GRAPHS ===\n'
 utils/mkgraph.sh --mono data/lang exp/mono2 exp/mono2/graph
