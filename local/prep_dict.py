@@ -7,7 +7,7 @@ from abc import ABCMeta, abstractmethod
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-__author__ = "YOURNAME"
+__author__ = "Keigh Rim"
 
 
 class PrepDict(object):
@@ -27,7 +27,7 @@ class PrepDict(object):
     def make_lexicon_txt(self):
         """
         This file has pronunciation dictionary.
-        formatted: word phone1 phoen2 ...
+        formatted: word phone1 phone2 ...
         For words with multiple pronunciations, repeat entries on separate lines.
         This file also should contains any pronunciation symbols for silences
         """
@@ -43,12 +43,12 @@ class PrepDict(object):
     @abstractmethod
     def make_nonsilence_phones_txt(self):
         """
-        This files has all symbols representing all phones used in words.
+        This file® has all symbols representing all phones used in words.
         If a phone can have variations depending on its context,
         you can list up the variances horizontally.
-        (This variation is NOT an allo-phone.)
+        (This variation is NOT an allophone.)
         These variations should be handled as additional questions
-        when building dicision trees.
+        when building decision trees.
         """
         raise NotImplementedError
 

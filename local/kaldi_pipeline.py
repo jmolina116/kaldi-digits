@@ -11,13 +11,13 @@ from os.path import join as pjoin
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-__author__ = "YOURNAME"
+__author__ = "Keigh Rim"
 
 
 class KaldiPipeline(object):
     """
     This is an abstract class for a Kaldi training-deciding pipeline.
-    It also has some useful doctrings and helper methods. 
+    It also has some useful docstrings and helper methods.
     """
     __metaclass__ = ABCMeta
 

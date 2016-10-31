@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:data/test3/text ark,p:- 
+%WER 2.91 [ 368 / 12637, 120 ins, 49 del, 199 sub ]
+%SER 7.90 [ 304 / 3847 ]
+Scored 3847 sentences, 0 not present in hyp.

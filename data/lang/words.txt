@@ -1,0 +1,16 @@
+<eps> 0
+<SIL> 1
+EIGHT 2
+FIVE 3
+FOUR 4
+NINE 5
+OH 6
+ONE 7
+SEVEN 8
+SIX 9
+THREE 10
+TWO 11
+ZERO 12
+#0 13
+<s> 14
+</s> 15

@@ -7,7 +7,7 @@ from abc import ABCMeta, abstractmethod
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-__author__ = "YOURNAME"
+__author__ = "Keigh Rim"
 
 
 class PrepData(object):
